@@ -35,7 +35,6 @@ Make sure you have the following tools installed:
 
 ### Running the Compiler
 
-    ```bash
     ./sql_compiler < input.txt
 
 with input.txt being a file that contains a SQL Query
