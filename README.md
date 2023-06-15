@@ -33,7 +33,9 @@ Make sure you have the following tools installed:
    bison -d mini.y
    gcc mini.yy.c mini.tab.c -o sql_compiler
 
-  ### Running the Compiler
+### Running the Compiler
 
-./sql_compiler < input.txt
+    ```bash
+   ./sql_compiler < input.txt
+
 with input.txt being a file that contains a SQL Query
